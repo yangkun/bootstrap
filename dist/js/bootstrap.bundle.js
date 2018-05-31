@@ -6426,6 +6426,9 @@
     }
   })($);
 
+  window.$ = $;
+  window.jQuery = $;
+
   exports.Util = Util;
   exports.Alert = Alert;
   exports.Button = Button;
